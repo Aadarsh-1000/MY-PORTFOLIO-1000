@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <main class="page-shell">
+        <section class="intro">
+            <h1>ABOUT ME</h1>
+          <p>Hello! I’m Aadarsh, an aspiring programmer from India who began coding about six months ago. I primarily work with HTML, CSS, and JavaScript. Moving forward, I’m keen to expand my skill set by learning Tailwind CSS, React, and Python to broaden the scope and quality of my development projects.</p>
+        </section>
+    <!-- From Uiverse.io by Smit-Prajapati -->
+    <section class="cards-wrap">
+    <div class="parent">
+        <div class="card">
+            <div class="logo">
+                <span class="circle circle1"></span>
+                <span class="circle circle2"></span>
+                <span class="circle circle3"></span>
+                <span class="circle circle4"></span>
+                <span class="circle circle5">M</span>
+
+            </div>
+            <div class="glass"></div>
+            <div class="content">
+                <span class="title">MEDLAB</span>
+                <span class="text">Medlab is a medical assitant that allows you to diagnose your symptoms for free</span>
+            </div>
+            <div class="bottom">
+
+                <div class="social-buttons-container">
+                    <a class="social-button" href="https://github.com/Aadarsh-1000/MEDLAB" aria-label="GitHub">GitHub</a>
+                    <a class="social-button" href="https://raw.githubusercontent.com/Aadarsh-1000/MEDLAB/main/README.md" aria-label="Readme">README</a>
+                </div>
+                <div class="view-more">
+                    <a href="https://medlab-jade.vercel.app/"><button class="view-more-button">DEMO</button></a>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="parent">
+        <div class="card">
+            <div class="logo">
+                <span class="circle circle1"></span>
+                <span class="circle circle2"></span>
+                <span class="circle circle3"></span>
+                <span class="circle circle4"></span>
+                <span class="circle circle5">S</span>
+
+            </div>
+            <div class="glass"></div>
+            <div class="content">
+                <span class="title">STOCK RUSH</span>
+                <span class="text">Stock Rush is a website that allows you to invest in stocks without needing having the risk of loosing money</span>
+            </div>
+            <div class="bottom">
+
+                <div class="social-buttons-container">
+                    <a class="social-button" href="https://github.com/Aadarsh-1000/Stock-Rush" aria-label="GitHub">GitHub</a>
+                    <a class="social-button" href="https://raw.githubusercontent.com/Aadarsh-1000/Stock-Rush/refs/heads/main/README." aria-label="Readme">README</a>
+                </div>
+                <div class="view-more">
+                    <a href="https://aadarsh-1000.github.io/Stock-Rush/"><button class="view-more-button">DEMO</button></a>
+
+                    </button>
+                   
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="parent">
+        <div class="card">
+            <div class="logo">
+                <span class="circle circle1"></span>
+                <span class="circle circle2"></span>
+                <span class="circle circle3"></span>
+                <span class="circle circle4"></span>
+                <span class="circle circle5">H</span>
+
+            </div>
+            <div class="glass"></div>
+            <div class="content">
+                <span class="title">HELICON</span>
+                <span class="text">Helicon is a jarvis style chrome extension to fix your boring browser expirience.</span>
+            </div>
+            <div class="bottom">
+
+                <div class="social-buttons-container">
+                    <a class="social-button" href="https://github.com/Aadarsh-1000/Helicon-Chrome-Extension" aria-label="GitHub">GitHub</a>
+                    <a class="social-button" href="https://raw.githubusercontent.com/Aadarsh-1000/Helicon-Chrome-Extension/main/READM" aria-label="Readme">README</a>
+                </div>
+                <div class="view-more">
+                    <a href="https://github.com/Aadarsh-1000/Helicon-Chrome-Extension/releases/tag/v1.0"><button class="view-more-button">DEMO</button></a>
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+    </main>
+    <style>
+        /* From Uiverse.io by Smit-Prajapati */
+        .cards-wrap {
+            width: 100%;
+            display: grid;
+            grid-template-columns: repeat(3, minmax(0, 1fr));
+            gap: 24px;
+            justify-items: center;
+            margin-top: 8px;
+        }
+
+        .parent {
+            width: min(290px, 100%);
+            height: 300px;
+            perspective: 1000px;
+            margin: 0 auto;
+        }
+
+        .card {
+            height: 100%;
+            border-radius: 50px;
+            font-family: "Cinzel Decorative", "Times New Roman", serif;
+            background: linear-gradient(145deg, #132234 0%, #1a3247 52%, #0f1a2a 100%);
+            transition: all 0.5s ease-in-out;
+            transform-style: preserve-3d;
+            box-shadow: rgba(7, 14, 22, 0.2) 40px 50px 25px -40px, rgba(0, 0, 0, 0.45) 0px 25px 25px -5px;
+        }
+
+        .glass {
+            transform-style: preserve-3d;
+            position: absolute;
+            inset: 8px;
+            border-radius: 55px;
+            border-top-right-radius: 100%;
+            background: linear-gradient(0deg, rgba(14, 23, 36, 0.72) 0%, rgba(42, 63, 87, 0.52) 100%);
+            /* -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px); */
+            transform: translate3d(0px, 0px, 25px);
+            border-left: 1px solid rgba(255, 216, 140, 0.35);
+            border-bottom: 1px solid rgba(0, 212, 255, 0.3);
+            transition: all 0.5s ease-in-out;
+        }
+
+        .content {
+            padding: 100px 60px 0px 30px;
+            transform: translate3d(0, 0, 26px);
+        }
+
+        .content .title {
+            display: block;
+            color: #f6e6c7;
+            font-weight: 900;
+            font-size: 20px;
+            letter-spacing: 0.08em;
+        }
+
+        .content .text {
+            display: block;
+            color: rgba(214, 236, 255, 0.86);
+            font-size: 15px;
+            margin-top: 20px;
+            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .bottom {
+            padding: 10px 12px;
+            transform-style: preserve-3d;
+            position: absolute;
+            bottom: 20px;
+            left: 20px;
+            right: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            transform: translate3d(0, 0, 26px);
+        }
+
+        .bottom .view-more {
+            display: flex;
+            align-items: center;
+            width: 40%;
+            justify-content: flex-end;
+            transition: all 0.2s ease-in-out;
+        }
+
+        .bottom .view-more:hover {
+            transform: translate3d(0, 0, 10px);
+        }
+
+        .bottom .view-more .view-more-button {
+            background: none;
+            border: none;
+            color: #ffd47e;
+            font-weight: bolder;
+            font-size: 12px;
+            font-family: "Cinzel Decorative", "Times New Roman", serif;
+            letter-spacing: 0.04em;
+        }
+
+
+        .bottom .social-buttons-container {
+            display: flex;
+            gap: 10px;
+            transform-style: preserve-3d;
+        }
+
+        .bottom .social-buttons-container .social-button {
+            min-width: 72px;
+            padding: 5px 8px;
+            background: rgba(12, 22, 33, 0.95);
+            border-radius: 999px;
+            border: 1px solid rgba(201, 169, 110, 0.45);
+            display: grid;
+            place-content: center;
+            box-shadow: rgba(0, 0, 0, 0.45) 0px 7px 8px -5px;
+            color: #9be7ff;
+            text-decoration: none;
+            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 11px;
+            font-weight: 700;
+            letter-spacing: 0.04em;
+        }
+
+        .bottom .social-buttons-container .social-button:first-child {
+            transition: transform 0.2s ease-in-out 0.4s, box-shadow 0.2s ease-in-out 0.4s;
+        }
+
+        .bottom .social-buttons-container .social-button:nth-child(2) {
+            transition: transform 0.2s ease-in-out 0.6s, box-shadow 0.2s ease-in-out 0.6s;
+        }
+
+        .bottom .social-buttons-container .social-button:hover {
+            background: #c9a96e;
+            color: #0c1118;
+        }
+
+        .bottom .social-buttons-container .social-button:active {
+            background: #00d4ff;
+            color: #0a1017;
+        }
+
+        .logo {
+            position: absolute;
+            right: 0;
+            top: 0;
+            transform-style: preserve-3d;
+        }
+
+        .logo .circle {
+            display: block;
+            position: absolute;
+            aspect-ratio: 1;
+            border-radius: 50%;
+            top: 0;
+            right: 0;
+            box-shadow: rgba(100, 100, 111, 0.2) -10px 10px 20px 0px;
+            -webkit-backdrop-filter: blur(5px);
+            backdrop-filter: blur(5px);
+            background: rgba(0, 212, 255, 0.17);
+            transition: all 0.5s ease-in-out;
+        }
+
+        .logo .circle1 {
+            width: 170px;
+            transform: translate3d(0, 0, 20px);
+            top: 8px;
+            right: 8px;
+        }
+
+        .logo .circle2 {
+            width: 140px;
+            transform: translate3d(0, 0, 40px);
+            top: 10px;
+            right: 10px;
+            -webkit-backdrop-filter: blur(1px);
+            backdrop-filter: blur(1px);
+            transition-delay: 0.4s;
+        }
+
+        .logo .circle3 {
+            width: 110px;
+            transform: translate3d(0, 0, 60px);
+            top: 17px;
+            right: 17px;
+            transition-delay: 0.8s;
+        }
+
+        .logo .circle4 {
+            width: 80px;
+            transform: translate3d(0, 0, 80px);
+            top: 23px;
+            right: 23px;
+            transition-delay: 1.2s;
+        }
+
+        .logo .circle5 {
+            width: 50px;
+            transform: translate3d(0, 0, 100px);
+            top: 30px;
+            right: 30px;
+            display: grid;
+            place-content: center;
+            transition-delay: 1.6s;
+            fill: #f6e6c7;
+            color: #f6e6c7;
+            font-size: 18px;
+            font-weight: 900;
+        }
+
+        .parent:hover .card {
+            transform: rotate3d(1, 1, 0, 30deg);
+            box-shadow: rgba(8, 16, 25, 0.48) 30px 50px 25px -40px, rgba(0, 0, 0, 0.35) 0px 25px 30px 0px;
+        }
+
+        .parent:hover .card .bottom .social-buttons-container .social-button {
+            transform: translate3d(0, 0, 50px);
+            padding: 6px 8px;
+            box-shadow: rgba(0, 212, 255, 0.18) -5px 20px 10px 0px;
+        }
+
+        .parent:hover .card .logo .circle2 {
+            transform: translate3d(0, 0, 60px);
+        }
+
+        .parent:hover .card .logo .circle3 {
+            transform: translate3d(0, 0, 80px);
+        }
+
+        .parent:hover .card .logo .circle4 {
+            transform: translate3d(0, 0, 100px);
+        }
+
+        .parent:hover .card .logo .circle5 {
+            transform: translate3d(0, 0, 120px);
+        }
+        body {
+          
+            margin: 0;
+            overflow-x: hidden;
+            overflow-y: auto;
+            min-height: 100vh;
+            padding: 24px 18px 40px;
+            background:
+                radial-gradient(circle at 15% 10%, rgba(47, 116, 171, 0.28) 0%, rgba(47, 116, 171, 0) 45%),
+                radial-gradient(circle at 85% 20%, rgba(201, 169, 110, 0.2) 0%, rgba(201, 169, 110, 0) 42%),
+                linear-gradient(160deg, #090b0f 0%, #11161d 55%, #0b0d12 100%);
+        }
+
+        .page-shell {
+            width: min(980px, 100%);
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 22px;
+        }
+
+        .intro {
+            max-width: 760px;
+                        width: 100%;
+                        transform: none;
+            text-align: center;
+                        margin: 4% auto 2%;
+        }
+
+        h1 {
+            margin: 0;
+            color: #f6e6c7;
+            font-family: "Cinzel Decorative", "Times New Roman", serif;
+            letter-spacing: 0.08em;
+            font-size: clamp(1.9rem, 4vw, 2.9rem);
+            line-height: 1.05;
+            opacity: 0;
+            animation: introTitleIn 900ms ease-out forwards;
+            
+        }
+
+        p {
+            margin: 16px 0 0;
+            color: rgba(214, 236, 255, 0.9);
+            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.65;
+            font-size: clamp(0.95rem, 2.1vw, 1.05rem);
+            max-width: 70ch;
+            opacity: 0;
+            animation: introTextIn 1000ms ease-out 220ms forwards;
+        }
+
+        @keyframes introTitleIn {
+            from {
+                opacity: 0;
+                transform: translateY(-18px) scale(0.98);
+                filter: blur(3px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0) scale(1);
+                filter: blur(0);
+            }
+        }
+
+        @keyframes introTextIn {
+            from {
+                opacity: 0;
+                transform: translateY(16px);
+                filter: blur(2px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+                filter: blur(0);
+            }
+        }
+
+        @media (max-width: 980px) {
+            .cards-wrap {
+                grid-template-columns: repeat(2, minmax(0, 1fr));
+            }
+
+            .page-shell {
+                align-items: center;
+            }
+        }
+
+        @media (max-width: 840px) {
+            .cards-wrap {
+                grid-template-columns: 1fr;
+            }
+
+            .page-shell {
+                align-items: center;
+            }
+
+            body {
+                padding: 18px 14px 32px;
+            }
+
+            .intro {
+                margin-top: 10px;
+            }
+
+            p {
+                margin-left: auto;
+                margin-right: auto;
+            }
+        }
+
+        @media (max-width: 560px) {
+            .parent {
+                height: 320px;
+            }
+
+            .content {
+                padding: 96px 22px 0 22px;
+            }
+
+            .bottom {
+                left: 14px;
+                right: 14px;
+                bottom: 14px;
+                flex-direction: column;
+                gap: 10px;
+                align-items: stretch;
+            }
+
+            .bottom .social-buttons-container {
+                width: 100%;
+                justify-content: center;
+            }
+
+            .bottom .view-more {
+                width: 100%;
+                justify-content: center;
+            }
+        }
+
+        @media (max-width: 440px) {
+            h1 {
+                font-size: clamp(1.5rem, 9vw, 2.2rem);
+            }
+
+            p {
+                font-size: 0.95rem;
+                line-height: 1.55;
+            }
+        }
+        
+    </style>
+</body>
+
+</html>
